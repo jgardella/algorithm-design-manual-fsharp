@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>algorithm_design_manual_fsharp</RootNamespace>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="DataStructures/Stack.fs" />
+    <Compile Include="Exercises/Ch3.fs" />
+  </ItemGroup>
+</Project>
