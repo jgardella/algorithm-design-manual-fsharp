@@ -4,6 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DataStructures/Queue.fs" />
     <Compile Include="DataStructures/Stack.fs" />
     <Compile Include="Exercises/Ch3.fs" />
   </ItemGroup>
