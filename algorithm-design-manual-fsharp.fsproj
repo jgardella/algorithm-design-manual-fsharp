@@ -4,6 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Scratchpad.fsx" />
+    <Compile Include="DataStructures/HashTable.fs" />
     <Compile Include="DataStructures/BinarySearchTree.fs" />
     <Compile Include="DataStructures/Queue.fs" />
     <Compile Include="DataStructures/Stack.fs" />
