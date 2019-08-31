@@ -1,12 +1,8 @@
 #load "references.fsx"
 
-open DataStructures
+open Algorithms.Sorting
 
-let hashTable = HashTable.empty 100
+let arr = [|9; 8; 7; 6; 5; 4; 3; 2; 1|]
+SelectionSort.sort arr
 
-HashTable.insert "a" 1 hashTable
-HashTable.insert "a" 1 hashTable
-HashTable.insert "b" 2 hashTable
-HashTable.insert "c" 3 hashTable
-
-let (value : int option) = HashTable.tryFind "a" hashTable
+arr
