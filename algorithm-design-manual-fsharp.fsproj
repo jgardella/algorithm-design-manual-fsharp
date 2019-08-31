@@ -9,7 +9,9 @@
     <Compile Include="DataStructures/BinarySearchTree.fs" />
     <Compile Include="DataStructures/Queue.fs" />
     <Compile Include="DataStructures/Stack.fs" />
+    <Compile Include="Algorithms/Sorting/Utils.fs" />
     <Compile Include="Algorithms/Sorting/SelectionSort.fs" />
+    <Compile Include="Algorithms/Sorting/InsertionSort.fs" />
     <Compile Include="Exercises/Ch3.fs" />
   </ItemGroup>
 </Project>
