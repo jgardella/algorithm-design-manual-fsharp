@@ -1,7 +1,7 @@
 module Algorithms.Searching.BinarySearch
 
 let rec private helper (arr : 'T []) (item : 'T) (low : int) (high : int) =
-    let median = low + (high - low / 2)
+    let median = (low + high) / 2
     if low > high then
         None
     else 

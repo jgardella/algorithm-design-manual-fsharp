@@ -12,16 +12,17 @@ let private partition (arr :'T []) (low : int) (high : int) =
     swap arr pivot high
     let mutable firstHigh = low
     for i = low to high - 1 do
-        if arr.[i] < arr.[pivot] then
+        if arr.[i] < arr.[high] then
             swap arr i firstHigh
             firstHigh <- firstHigh + 1
 
-    swap arr pivot firstHigh
+    swap arr high firstHigh
     firstHigh
 
 let rec private helper (arr : 'T []) (low : int) (high : int) =
     if high - low > 0 then
         let pivot = partition arr low high
+        printfn "partition=%A" arr
         helper arr low (pivot - 1)
         helper arr (pivot + 1) high
 
