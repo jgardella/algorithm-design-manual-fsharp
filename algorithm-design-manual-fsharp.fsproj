@@ -4,6 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Algorithms/Searching/TransitionPoint.fs" />
     <Compile Include="Scratchpad.fsx" />
     <Compile Include="Utils.fs" />
     <Compile Include="DataStructures/HashTable.fs" />
@@ -18,6 +19,7 @@
     <Compile Include="Algorithms/Sorting/MergeSort.fs" />
     <Compile Include="Algorithms/Searching/BinarySearch.fs" />
     <Compile Include="Algorithms/Searching/OccurrenceCount.fs" />
+    <Compile Include="Algorithms/Searching/TransitionSearch.fs" />
     <Compile Include="Exercises/Ch3.fs" />
   </ItemGroup>
 </Project>
