@@ -1,5 +1,7 @@
 module Algorithms.Sorting.SelectionSort
 
+open Utils
+
 /// Performs an in-place selection sort of the provided array.
 let sort (arr : 'T []) =
     for i = 0 to arr.Length - 1 do

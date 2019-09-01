@@ -1,5 +1,7 @@
 module Algorithms.Sorting.InsertionSort
 
+open Utils
+
 /// Performs an in-place insertion sort of the provided array.
 let sort (arr : 'T []) =
     for i = 1 to arr.Length - 1 do

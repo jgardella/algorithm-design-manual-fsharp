@@ -5,13 +5,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Scratchpad.fsx" />
+    <Compile Include="Utils.fs" />
     <Compile Include="DataStructures/HashTable.fs" />
     <Compile Include="DataStructures/BinarySearchTree.fs" />
     <Compile Include="DataStructures/Queue.fs" />
     <Compile Include="DataStructures/Stack.fs" />
-    <Compile Include="Algorithms/Sorting/Utils.fs" />
+    <Compile Include="DataStructures/Heap.fs" />
     <Compile Include="Algorithms/Sorting/SelectionSort.fs" />
     <Compile Include="Algorithms/Sorting/InsertionSort.fs" />
+    <Compile Include="Algorithms/Sorting/HeapSort.fs" />
     <Compile Include="Exercises/Ch3.fs" />
   </ItemGroup>
 </Project>
