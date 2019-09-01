@@ -122,4 +122,5 @@
 #load @"c:\Users\j0g01u7\dev\algorithm-design-manual-fsharp\Algorithms\Sorting\HeapSort.fs"
 #load @"c:\Users\j0g01u7\dev\algorithm-design-manual-fsharp\Algorithms\Sorting\MergeSort.fs"
 #load @"c:\Users\j0g01u7\dev\algorithm-design-manual-fsharp\Algorithms\Sorting\QuickSort.fs"
+#load @"c:\Users\j0g01u7\dev\algorithm-design-manual-fsharp\Algorithms\Searching\BinarySearch.fs"
 #load @"c:\Users\j0g01u7\dev\algorithm-design-manual-fsharp\Exercises\Ch3.fs"

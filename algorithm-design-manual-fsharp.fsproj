@@ -16,6 +16,7 @@
     <Compile Include="Algorithms/Sorting/HeapSort.fs" />
     <Compile Include="Algorithms/Sorting/QuickSort.fs" />
     <Compile Include="Algorithms/Sorting/MergeSort.fs" />
+    <Compile Include="Algorithms/Searching/BinarySearch.fs" />
     <Compile Include="Exercises/Ch3.fs" />
   </ItemGroup>
 </Project>
